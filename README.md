@@ -49,10 +49,10 @@ usage = `git clone https://github.com/axom0022/axom-waf`
 ### important =
 edit config.json :
 
-ratepersec = HTTP requests per second allowed per IP
-synfloodthreshold = SYN packets/sec to trigger block
-upstreamtarget = backend server (example : http://localhost:3000)
-whitelist = the user you dont want to get blocked from modifying
+ratepersec = HTTP requests per second allowed per IP ||
+synfloodthreshold = SYN packets/sec to trigger block ||
+upstreamtarget = backend server (example : http://localhost:3000) || 
+whitelist = the user you dont want to get blocked from modifying ||
 blacklist = blacklist someone before he even tries to do anything
 
 made by axom.
