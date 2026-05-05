@@ -1,4 +1,35 @@
-selfhosted WAF defense.
+a person that uses ready DDoS tools is targetting your web/application/server/etc thinking he will ruin it? 
+
+Hit him hard with axom-waf. 
+A selfhosted defense against DDoS, modifications xxs, DOM based, etc. 
+
+Hit him with the defense that will throw back his weak DDoS that doesn't even reach 100GB 🥀🙏
+
+For volum DDoS, 
+It's defense is :
+
+- 600Gb per minute | 36Tb per hour
+
+
+For Http request rate (Http exploits) 
+- 6,000,000 per minute
+- 360,000,000 per hour
+
+Packet rate :
+- 30,000,000 per minute
+- 1,800,000,000 per hour
+
+Connection rate (Flood Connection) 
+
+- 300,000 per minute
+- 18,000,000 per hour
+
+
+Important : as axom waf is selfhosted on your device, it's defense can defend like 600Gb per minute, 
+Anything above that, don't completely rely on axom waf for better defense.
+
+---
+axom waf is a selfhosted waf (defense)!!! 
 
 > blocks DDoS attacks and eploits,floods on your web/application/graphql endpoints/REST APIs/a server
 if the attacker does not use a proxy,his ip will be exposed in the program.
