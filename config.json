@@ -1,0 +1,33 @@
+{
+  "listenport": 8080,
+  "upstreamtarget": "http://127.0.0.1:3000",
+  "ratepersec": 200,
+  "rateburst": 400,
+  "maxconnsperip": 10,
+  "iptablesblocksec": 600,
+  "synfloodthreshold": 500,
+  "udpfloodthreshold": 2000,
+  "icmpfloodthreshold": 500,
+  "slowloristhreshold": 100,
+  "httpfloodthreshold": 1000,
+  "whitelist": [],
+  "blacklist": [],
+  "sqlpatterns": [
+    "union.*select",
+    "select.*from",
+    "insert.*into",
+    "delete.*from",
+    "drop.*table",
+    "exec.+xp_",
+    "--",
+    "#"
+  ],
+  "xsspatterns": [
+    "<script",
+    "javascript:",
+    "onerror=",
+    "onload=",
+    "eval\\(",
+    "alert\\("
+  ]
+}
